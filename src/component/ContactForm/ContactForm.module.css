@@ -2,7 +2,6 @@
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 40px;
     align-items: end;
 }
 .top_btn{
@@ -19,7 +18,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .form_control{
     display: flex;
@@ -31,6 +30,9 @@
 .form_control input{
   height: 40px;
   padding: 0 8px;
+}
+.form_control textarea{
+  padding: 8px;
 }
 .form_control label{
 font-size: 14px;

@@ -55,7 +55,6 @@ const ContactForm = () => {
           <div style={{ display: "flex", justifyContent: "end" }}>
             <Button text="SUBMIT BUTTON" />
           </div>
-
           <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
             <span>
               <strong>Name:</strong> {name}
